@@ -1,0 +1,9 @@
+function somatorio(numeros) {
+  let soma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    soma = soma + numeros[i];
+  }
+  return soma;
+}
+
+console.log(somatorio([1, 2, 3, 4, 5]));
